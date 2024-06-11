@@ -1,0 +1,13 @@
+.centered-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh; /* 使用视口高度来使容器充满整个屏幕 */
+}
+.centered-image {
+max-width: 100%; /* 使图片最大宽度不超过容器宽度 */
+max-height: 100vh; /* 使图片最大高度不超过视口高度 */
+}
+body {
+background-color: rosybrown; /* 这里的颜色代码#f0f0f0是浅灰色，您可以根据需要更改颜色代码 */
+}
